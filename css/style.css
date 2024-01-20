@@ -1,0 +1,264 @@
+.container2 {
+    position: relative;
+
+}
+
+.image1,
+.image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image2 {
+    /* width: 100%; */
+    margin-left: -38px;
+
+    margin-top: 70px;
+    z-index: 1;
+    /* This determines the stacking order. Higher z-index appears on top. */
+}
+
+h5 {
+    font-size: 40px;
+    font-family: 'Inter';
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+
+input {
+    width: 245px;
+    border-radius: 6px;
+    border: 1px #828282 solid;
+    height: 40px;
+    padding: 18px;
+    outline: none;
+    margin-top: 11px;
+    margin-bottom: 10px;
+}
+
+.button {
+    width: 245px;
+    margin-top: 10px;
+    border-radius: 6px;
+    background: #E70000;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+h6 {
+    margin-top: 37px;
+    font-size: 17px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+.container3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 75%; */
+    margin-top: 70px;
+}
+
+.circle-container {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    /* Hide overflow content */
+}
+
+.circle-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensure the image covers the entire circle */
+}
+
+.text-inside {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* Set the text color */
+    text-align: center;
+}
+
+.text-inside2 {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    /* Set the text color */
+    text-align: center;
+}
+
+.services {
+    color: black;
+    font-size: 31px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.ellipse3 {
+    position: absolute;
+    bottom: 34%;
+    left: -68px;
+}
+
+.ellipse3img {
+    width: 131px;
+}
+
+.bottom-ellipse {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    bottom: 1%;
+
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #8f8b8b;
+    text-align: center;
+
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-icons-mobile {
+    display: flex;
+    justify-content: center;
+}
+
+/* for laptops desktops */
+@media only screen and (min-width: 1191px) {
+    .mob {
+        display: none;
+    }
+
+}
+
+/* for mobile */
+@media only screen and (max-width: 1191px) {
+    .web {
+        display: none;
+    }
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 17px 20px 17px;
+
+}
+
+.mobile-view-first-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.contactus-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#toaster {
+    display: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+ }
+ 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.web{
+    width: 100%; height: 100%; background: linear-gradient(180deg, #D9D9D9 0%, rgba(217, 217, 217, 0) 100%)
+}
+.logo{
+    margin-top: 43px;
+    padding-left: 15px;
+   
+
+}
+.connect{
+    display: flex;align-items: center;
+}
+.heading-tag{
+    color: black;
+                    font-size: 51px;
+                    font-family: Inter;
+                    font-weight: 600;
+                    word-wrap: break-word;
+}
+.ellpise-contact{
+    position: absolute;
+                        top: -18%;
+                        left: -15%;
+}
+.ellpise-contact2{
+    position: absolute;
+    top: 8%;
+    left: 7%;
+}
+.paragraph-web{
+    text-align: start;
+}
+
+.mob{
+    width: 100%; height: 100%; background: linear-gradient(180deg, #D9D9D9 0%, rgba(217, 217, 217, 0) 100%)
+}
+.navigation-mob{
+    background-color: white;
+}
+.logo-mob{
+    padding-left: 15px;
+}
