@@ -90,17 +90,26 @@ p {
 
 .text-inside {
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     /* Set the text color */
     text-align: center;
 }
-
+em{
+    font-size: 18px;
+    font-weight: bold;
+    color: #e70000;
+}
+.service-h6{
+    margin: 0px;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
 .text-inside2 {
     position: absolute;
-    top: 62%;
+    top: 60%;
     left: 50%;
     width: 100%;
     transform: translate(-50%, -50%);
@@ -110,6 +119,7 @@ p {
 }
 
 .services {
+    line-height: 35px;
     color: black;
     font-size: 31px;
     font-family: Inter;
