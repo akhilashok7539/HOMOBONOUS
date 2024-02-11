@@ -351,3 +351,20 @@ nav {
 .mob-footer-p{
     text-align: center;
 }
+.ellpise-contact-service{
+    position: absolute;
+    top: -21%;
+    right: -15%
+}
+.ellpise-contact-service2{
+    position: absolute;
+    top: 5%;
+   
+    right: 7%;
+}
+.ellpise-contact-service3{
+    position: absolute;
+    /* top: -21%; */
+    left: 5%;
+    bottom: -4%;
+}
