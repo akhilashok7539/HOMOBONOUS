@@ -72,7 +72,7 @@ function submitForm(event) {
 function submitToGoogleSheets(data) {
     // Use Google Apps Script to handle form submission to Google Sheets
     // var scriptURL = 'https://script.google.com/macros/s/AKfycbwPvkEDUvhHIPmhTfPwuaxth1czYGAO3R31scxIhFE6oO1MUd3KifYXc8FxRedbC0p1/exec';
-    var scriptURL = 'https://script.google.com/macros/s/AKfycbyyJVs6B2nj89lGMDIsRbi5e7uS1vcDT-Jk96y3d1UNbIDjSfsSgpibY5IJDZYaBdY/exec';
+    var scriptURL = 'https://script.google.com/macros/s/AKfycbzNTStCJKy6RZbAp89Dx0SWYLtNlDrIhC0E2gSpOUS6Va8Ex8JVq4v3lrnBj93sFevz9g/exec';
     var payload = JSON.stringify(data);
 
     fetch(scriptURL, {
@@ -97,7 +97,7 @@ function submitToGoogleSheets(data) {
 // for news letter
 function submitToGoogleSheetsNewsLetter(data) {
     // Use Google Apps Script to handle form submission to Google Sheets
-    var scriptURL = 'https://script.google.com/macros/s/AKfycbwG5Ee85d2QXvhVIEKR_Mrp3o0sG5WubVn4pOu1fH0bFpwru7UvjVcTD5boQ4XbYbQbCQ/exec';
+    var scriptURL = 'https://script.google.com/macros/s/AKfycbzNTStCJKy6RZbAp89Dx0SWYLtNlDrIhC0E2gSpOUS6Va8Ex8JVq4v3lrnBj93sFevz9g/exec';
     var payload = JSON.stringify(data);
 
     fetch(scriptURL, {
